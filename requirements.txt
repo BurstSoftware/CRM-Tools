@@ -1,0 +1,13 @@
+# requirements.txt - Optimized for Python 3.13 (December 2025)
+streamlit==1.40.0
+pandas==2.2.3
+numpy==2.1.2
+
+# Optional: For better performance and compatibility
+pyarrow==18.0.0
+
+# Recommended for production deployments
+watchdog==5.0.3  # Improves file watching in Streamlit
+
+# Pin typing extensions if needed (usually not required on 3.13)
+# typing-extensions>=4.12.0
